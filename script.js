@@ -14,8 +14,12 @@ for (let i = 0; i < favoriteFoods.length; i++) {
 // "My #1 favorite food is Ramen" (copy/paste for all items)
 // "My #2 favorite food is Sushi"
 // ...etc.
-
-
+console.log("My #1 favorite food is " + favoriteFoods[1] + ".");
+console.log("My #2 favorite food is " + favoriteFoods[0] + ".");
+console.log("My #3 favorite food is " + favoriteFoods[3] + ".");
+console.log("My #4 favorite food is " + favoriteFoods[5] + ".");
+console.log("My #5 favorite food is " + favoriteFoods[2] + ".");
+console.log("My #6 favorite food is " + favoriteFoods[4] + ".");
 
 
 
