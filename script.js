@@ -27,11 +27,17 @@ console.log("My #6 favorite food is " + favoriteFoods[4] + ".");
     // "Have you ever tried ____?"
     // "I always recommend ____ to friends."
     // "Trust me — ____ is delicious."
-
+function printFoodRecommendation(foodName) {
+    console.log("Have you ever tried " + foodName + "?");
+    console.log("I always recommend " + foodName + " to friends.");
+    console.log("Trust me — " + foodName + " is delicious.");
 
 
 
 // 4b. Call the function at least 3 times
+printFoodRecommendation("Sushi");
+printFoodRecommendation("Pasta");
+printFoodRecommendation("Ramen");
 
 
 
@@ -41,8 +47,11 @@ let friendFavorites = [
   ];
 
 // 5. Print out only foods that have an "a" in the name. For example, "Pizza" would not be included, but "Donuts" would be.
-
-
+for (let i = 0; i < friendFavorites.length; i++) {
+    if (friendFavorites[i].includes("a") || friendFavorites[i].includes("A")) {
+        console.log(friendFavorites[i]);
+    }
+}
 
 // 6. Store the result in an array called foodsWithA. Print out the array.
 
